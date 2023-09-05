@@ -34,7 +34,7 @@ function Login() {
     }).catch((err) => {
         console.log(err)
         setError(err)
-        alert(err)
+        alert("This user is not Found " + err)
     })
 
   }
