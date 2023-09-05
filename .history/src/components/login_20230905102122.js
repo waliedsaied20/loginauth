@@ -1,0 +1,37 @@
+import VideoScreen from '../image/Amazing.mp4'
+import '../style.css';
+
+function Login({signIn , logOut , signInWithGoogle}) {
+    return (
+        <>
+            <div className="background ">
+                <video autoPlay muted loop playsInline className='h-screen' >
+                    <source src={VideoScreen} type="video/mp4"  className='h-screen'/>
+                   
+                </video>
+
+                <form>
+                    <h3>Login To Chat GPT</h3>
+
+                    <label htmlFor="username">Username</label>
+                    <input type="text"  placeholder="Email or Phone" id="username" required />
+
+                        <label htmlFor="password">Password</label>
+                        <input type="password" placeholder="Password" id="password" required />
+
+                        <div className='flex '>
+                            <button className='bg-white text-[#080710]  text-xl font-bold px-8 py-2 rounded w-1/2 my-8 mx-2 'onClick={signIn}>Log In</button>
+                            <button className="bg-white text-[#080710]  text-xl font-bold px-8 py-2 rounded w-1/2 my-8 mx-2">Register</button>
+                        </div>
+                        <button className='block w-full bg-white text-[#080710]  text-xl font-bold px-8 py-2 rounded ' onClick={}>SignIn with Google</button>
+                </form>
+          
+            </div>
+
+        </>
+
+    )
+}
+
+
+export default Login;
