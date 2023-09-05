@@ -97,7 +97,7 @@ function Login() {
           </div>
         </div>
       )}
-      {error && <p className="text-black bg-red-500 p-3 rounded-xl">This user is not Found </p>}
+      {error && <p className="text-black bg-red-500 p-3 rounded-xl">This user is nof</p>}
     </>
   );
 }
