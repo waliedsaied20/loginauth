@@ -172,7 +172,7 @@ html {
     font-size: 30px;
     font-weight: 700;
     height:  fit-content;
-    left: 20%;
+    left: 10%;
     margin-left: 0px;
     margin-top: 0px;
     position: absolute;
@@ -182,9 +182,6 @@ html {
     border: 2px solid red;
     padding: 22px;
 
-    }
-    .piston{
-        
     }
 }
 .piston {
@@ -197,7 +194,6 @@ html {
     border-radius: 10px 10px 50px 50px;
     box-shadow: 0 -4px 0 rgba(0,0,0,.2), 0 4px 0 rgba(255,255,255,.2);
 }
-
 .piston:last-child {
     margin: 0;
 }

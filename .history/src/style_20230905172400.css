@@ -184,7 +184,8 @@ html {
 
     }
     .piston{
-        
+        width:50px !important;
+        height:100px !important;
     }
 }
 .piston {
